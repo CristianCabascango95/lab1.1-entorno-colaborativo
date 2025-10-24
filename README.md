@@ -16,7 +16,7 @@ Durante el proceso, se configuran las credenciales de usuario, se genera una cla
 
 El resultado final es un repositorio colaborativo bien estructurado, con historial de versiones, documentación y evidencias del trabajo en equipo.
 
-## Pasos de configuración del entorno (resumen)
+## Pasos de configuración del entorno 
 1. Instalación de Git.
 2. Configuración de `git config --global user.name` y `user.email`.
 3. Generación de clave SSH y añadido a GitHub/GitLab.

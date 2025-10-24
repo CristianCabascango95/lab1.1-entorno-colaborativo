@@ -74,3 +74,30 @@ git push -u origin feature/readme-update
 4.4 Crear Pull Request / Merge Request
 
 En GitHub: En el repositorio aparecerá botón Compare & pull request. Completa título y descripción y asigna revisores.
+
+
+Ejemplos rápidos de comandos
+# 1. Clonar
+git clone git@github.com:tu_usuario/lab1.1-entorno-colaborativo.git
+cd lab1.1-entorno-colaborativo
+
+# 2. Crear estructura y .gitignore
+mkdir docs src evidencias
+echo "node_modules/" > .gitignore
+
+# 3. Primer commit
+git add .
+git commit -m "chore: estructura inicial y .gitignore"
+git push origin main
+
+# 4. Crear rama feature
+git checkout -b feature/readme
+# editar README
+git add README.md
+git commit -m "feat: completar README con plantilla"
+git push -u origin feature/readme
+
+# 5. Hacer PR (vía web)
+# 6. Tras merge, actualizar main local
+git checkout main
+git pull origin main
