@@ -24,4 +24,5 @@ El resultado final es un repositorio colaborativo bien estructurado, con histori
 5. Trabajo por ramas y Pull Request.
 
 (En `docs/pasos_config.md` está la guía detallada con comandos y capturas.)
-
+link del repositorio 
+https://github.com/CristianCabascango95/lab1.1-entorno-colaborativo.git
